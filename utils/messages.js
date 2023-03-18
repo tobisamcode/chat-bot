@@ -16,7 +16,7 @@ function formatMessage(user, msg) {
 function welcomeCustomer() {
   return {
     user: "Chatbot",
-    msg: "Hi! </br > welcome to BigBite!</br > </br >Select 1 to place an order</br > Select 99 to checkout order</br > Select 98 to see order history</br >Select 97 to see current order</br > Select 0 to cancel order</br >",
+    msg: "Hi! </br > welcome to my Chatbot!</br > </br >Select 1 to place an order</br > Select 99 to checkout order</br > Select 98 to see order history</br >Select 97 to see current order</br > Select 0 to cancel order</br >",
     time: moment().format("h:mm a"),
   };
 }

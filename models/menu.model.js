@@ -7,6 +7,7 @@ const MenuSchema = new Schema(
   {
     id: {
       type: Number,
+      unique: true,
     },
     name: {
       type: String,
