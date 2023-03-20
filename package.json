@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon app.js",
-        "start": "node app.js"
+        "dev": "nodemon src/app.js",
+        "infra": "docker-compose -f docker-compose.infra.yml up -d",
+        "start": "node src/app.js"
     },
     "keywords": [],
     "author": "",
